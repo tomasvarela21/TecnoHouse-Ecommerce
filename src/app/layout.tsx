@@ -27,12 +27,12 @@ export default function Layout({ children }: LayoutProps) {
     <CartProvider>
       <html lang="es">
         <body className="bg-gray-100 flex flex-col min-h-screen">
-          <header className="bg-white shadow">
+          <header className="bg-gray-200  shadow">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
               {/* Título con logo */}
               <div className="flex items-center space-x-2">
               <img
-                src="/TecnoHouse-Logo.png" // Cambia esta ruta si usas importación
+                src="/Logo.png" // Cambia esta ruta si usas importación
                 alt="Logo de TecnoHouse"
                 className="h-17 w-17 md:h-20 md:w-20 object-contain" // Ajusta el tamaño del logo
               />
